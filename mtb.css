@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    background-color: black;
+}
+
+.header_logo{
+    height: auto;
+    width: 900px;
+    margin: auto;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center; 
+}
+
+.header_logo_image{
+    height: 100px;
+    width: 300px;   
+}
+
+.header_links_box{  
+    height: auto;
+    width: 900px;
+    margin: auto;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.header_links{
+    border: 5px solid blanchedalmond;
+    font-size: 24px;
+    font-weight: bold;
+    color: blanchedalmond;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: auto;
+    text-decoration-line: none;
+}
+
+a:hover{
+    background-color: skyblue;
+    color: black;    
+}
+a:active{
+    background-color: gold;
+    color: black;    
+}
+
+.MTB_image_box{
+    height: auto;
+    width: 900px;
+    margin: auto;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.MTB_image{
+    border: 10px blanchedalmond solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    height: 510px;
+    width: 900px;
+}
+
+.header_box_1{
+    height: auto;
+    width: 900px;
+    margin: auto;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.header_1{
+    font-size: 32px;
+    font-weight: bold;
+    color: gold;
+}
+
+.pg1_content_box_1{
+    height: auto;
+    width: 900px;
+    margin: auto;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: left;
+    flex-direction: column;
+}
+
+.pg1_content_1{
+    font-size: 28px;
+    font-weight: bold;
+    color: blanchedalmond;
+    margin: 10px
+}
+
+.pg1_content_links_box{  
+    height: auto;
+    width: 900px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.pg1_content_links{
+    border: 5px solid blanchedalmond;
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+    background-color: gold;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration-line: none;
+    animation: blinking_1 2.0s infinite;
+}
+@keyframes blinking_1{
+    0% {background-color: gold; color:black}
+    100% {background-color: black; color:gold}
+}
+
+.pg2_invite_header_box{
+    height: auto;
+    width: 900px;
+    margin: auto;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.pg2_invite_header{
+    font-size: 32px;
+    font-weight: bold;
+    color: gold;
+}
+
+.mtb_invitation_video_box{
+    height: auto;
+    width: 880px;
+    margin: auto;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.mtb_invitation_video{
+    border: 10px gold solid;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 500px;
+    width: 880px;
+}
+
+.pg2_content_links_box{  
+    height: auto;
+    width: 900px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.pg2_content_links{
+    border: 5px solid blanchedalmond;
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+    background-color: gold;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration-line: none;
+    animation: blinking_2 2.0s infinite;
+}
+@keyframes blinking_2{
+    0% {background-color: gold; color:black}
+    100% {background-color: black; color:gold}
+}
+
+.contact_us_box{
+    height: auto;
+    width: 900px;
+    margin: auto;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: left;
+    flex-direction: column;
+}
+
+.contact_us_1{
+    font-size: 28px;
+    font-weight: bold;
+    color: blanchedalmond;
+    margin: 10px
+}
+
+.contact_us_2{
+    font-size: 28px;
+    font-weight: bold;
+    color: skyblue;
+    margin: 10px
+}
+
+.email_links{
+    border: 5px solid blanchedalmond;
+    font-weight: bold;
+    color:  blanchedalmond;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: auto;
+    text-decoration-line: none;
+    animation: blinking_3 2.0s infinite;
+}
+@keyframes blinking_3{
+    0% {background-color: gold; color:black}
+    100% {background-color: black; color:gold}
+}
+
+.ender_box_1{
+    height: auto;
+    width: 900px;
+    margin: auto;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.ender_1{
+    font-size: 28px;
+    font-weight: bold;
+    color: gold;
+}
